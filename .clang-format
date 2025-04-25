@@ -1,5 +1,5 @@
 ---
-  BasedOnStyle: Google
+  BasedOnStyle: LLVM
   AccessModifierOffset: -2
   AlignTrailingComments: true
   AllowAllParametersOfDeclarationOnNextLine: false
@@ -10,6 +10,8 @@
   IncludeBlocks: Regroup
   IndentPPDirectives: AfterHash
   IndentWidth: 4
+  AllowShortBlocksOnASingleLine: Empty
+  AllowShortFunctionsOnASingleLine: Empty
   NamespaceIndentation: All
   BreakBeforeBinaryOperators: All
   BreakBeforeTernaryOperators: 'true'

@@ -1,13 +1,15 @@
-#include <cstdint>
-
 #include "bus.h"
+
+#include <cstdint>
 
 class Olc6502 {
   public:
     Olc6502();
     ~Olc6502();
 
-    void connect_bus(Bus *n) { bus = n; }
+    void connect_bus(Bus *n) {
+        bus = n;
+    }
 
   private:
     Bus *bus = nullptr;
